@@ -1,0 +1,41 @@
+[
+  {
+    "category": "Lift",
+    "subCategory": "Fan",
+    "block": "GH-6",
+    "roomNo": "601",
+    "dateAndTime": "2024-04-09T10:00",
+    "assignedTo": "Anshul Bhardwaj",
+    "regNo": "12109949",
+    "contactNo": "9815868697",
+    "priority": "Low",
+    "status": "Done",
+    "rating": "5"
+  },
+  {
+    "category": "Water Cooler",
+    "subCategory": "Taste Problem",
+    "block": "38",
+    "roomNo": "101",
+    "dateAndTime": "2024-04-11T12:00",
+    "assignedTo": "Hasib Ahemad",
+    "regNo": "12103407",
+    "contactNo": "7009048740",
+    "priority": "Medium",
+    "status": "Raised",
+    "rating": null
+  },
+  {
+    "category": "Electricity",
+    "subCategory": "Short Circuit",
+    "block": "54",
+    "roomNo": "821",
+    "dateAndTime": "2024-04-09T11:00",
+    "assignedTo": "Saksham Jamwal",
+    "regNo": "12110854",
+    "contactNo": "9872231697",
+    "priority": "High",
+    "status": "Raised",
+    "rating": null
+  }
+]
