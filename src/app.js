@@ -3,7 +3,7 @@ const fs = require('fs');
 const hbs = require('hbs');
 const path = require('path');
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
@@ -186,8 +186,8 @@ app.get('/worker-rating', (req, res) => {
   res.render('worker_rating');
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
 
 app.get('*', (req, res) => {
